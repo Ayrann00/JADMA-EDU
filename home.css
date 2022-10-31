@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    background-image: url(bg-cover.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    font-family: 'Paytone One';
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 30px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.content {
+    box-sizing: border-box;
+    max-width: 60%;
+    max-height: auto;
+    padding: 10px;
+    margin: 2%;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px;
+    min-height: 400px;
+    background-color: #fff;
+    margin-left: 20%;
+}
+
+.content img {
+    height: 350px;
+    width: 350px;
+    margin: 5%;
+    float: right;
+    position: flex;
+}
+
+.content h1 {
+    font-family: 'Paytone One';
+    color: #4051e1;
+    font-size: 70px;
+}
+
+.content p {
+    font-family: 'Crusoe Text';
+    font-size: 18px;
+}
+
+.content button {
+    box-sizeing: border-box;
+    width: 200px;
+    height: 40px;
+    background-color: #dbdd80;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.content-2 {
+    box-sizing: border-box;
+    max-width: 60%;
+    max-height: auto;
+    min-height: 400px;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 2%;
+    box-shadow: 0 5px 10px;
+    min-height: 400px;
+    background-color: #fff;
+    margin-left: 20%;
+}
+
+.content-2 img {
+    margin: 2%;
+    height: 300px;
+    width: 300px;
+    float: left; 
+}
+
+.content-2 p {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    margin: 5%;
+}
+
+.content-2 h1 {
+    font-family: 'Paytone One';
+    color: #dbdd80;
+    font-size: 70px;
+    margin-bottom: 0px;
+    margin-top: 20%;
+}
+
+.content-2 h2{
+    font-family: 'Paytone One';
+    color: #4051e1;
+    font-size: 70px;
+}
+
+.content-3 {
+    box-sizing: border-box;
+    max-width: 60%;
+    max-height: auto;
+    min-height: 500px;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 2%;
+    box-shadow: 0 5px 10px;
+    background-color: #fff;
+    margin-left: 20%;
+}
+
+.content-3 img {
+    height: 350px;
+    width: 250px;
+    margin: 5%;
+    float: right;
+    position: flex;
+}
+
+.content-3 p {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    margin: 5%;
+    text-align: right;
+}
+
+.content-3 h1 {
+    font-family: 'Paytone One';
+    color: #4051e1;
+    font-size: 70px;
+    text-align: right;
+}
+
+.content-4 {
+    box-sizing: border-box;
+    max-width: 60%;
+    max-height: auto;
+    min-height: 400px;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 2%;
+    box-shadow: 0 5px 10px;
+    min-height: 400px;
+    background-color: #fff;
+    margin-left: 20%;
+}
+
+.content-4 img {
+    margin: 2%;
+    height: 250px;
+    width: 350px;
+    float: left; 
+}
+
+.content-4 p {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    margin: 5%;
+}
+
+.content-4 h3 {
+    font-size: 19px;
+    font-family: Crusoe Text;
+}
+
+.content-4 button {
+    box-sizeing: border-box;
+    width: 200px;
+    height: 40px;
+    background-color: #dbdd80;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.butt {
+    padding:5px;
+    position: flex;
+    width: auto;
+    text-align: center;
+}
+
+.butt lu {
+    list-style-type: none;
+    position: flex;
+    float: left;
+}
+
+.butt img {
+    width: 50px;
+    height: 50px;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    padding: 5px 0;
+    text-align: center;
+    margin: 5px 5px;
+    border-radius: 50px;
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+    position: sticky;
+    overflow: hidden;
+}
+
+.footer{
+    font-family:Open Sans;
+    font-size: 16px;
+    padding:5px;
+    position: flex;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    text-align: center;
+    color: #fff;
+}
